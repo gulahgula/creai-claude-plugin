@@ -1,0 +1,8 @@
+{
+  "name": "creai",
+  "displayName": "Creai",
+  "version": "1.0.0",
+  "description": "Turn a video on your own YouTube channel into interactive prompts, review them, and make them live, from a conversation with Claude.",
+  "author": { "name": "Creai", "url": "https://withcreai.app" },
+  "license": "MIT"
+}

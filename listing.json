@@ -1,0 +1,31 @@
+{
+  "name": "Creai",
+  "one_liner": "Turn a video on your own YouTube channel into interactive prompts, review them, and make them live, all from Claude.",
+  "description": "Creai adds interactive prompts to a creator's YouTube videos. With this connector, Claude can list the videos on your connected channel, check how many generations you have left, start a generation for one video, show you the generated prompts and answer options for review, make a reviewed version live for viewers, and give you the public watch link.\n\nWhat you need: a Creai account and a YouTube channel you own, connected to Creai in the console. Claude cannot create accounts or connect YouTube for you; when the channel is not connected, Claude gives you the console link to do it.\n\nWhat Claude can do: read your workspaces, videos, allowance and generations; start a generation on your own channel (it uses one video of your allowance); make a generation live, which changes what viewers see.\n\nWhat Claude cannot do: work on channels you do not own, delete anything, disconnect YouTube, change billing or account settings, or publish without your instruction.",
+  "categories": ["Designs & media", "Marketing"],
+  "example_prompts": [
+    "Which of my YouTube videos don't have interactive prompts yet, and how many generations do I have left?",
+    "Generate interactive prompts for my latest video, then show me the prompts so I can review them before anything goes live.",
+    "Make the generation I just reviewed live and give me the watch link to share."
+  ],
+  "documentation_url": "https://withcreai.app/connect-claude/",
+  "privacy_policy_url": "https://console.withcreai.app/privacy",
+  "support_contact": "withcreai@gmail.com",
+  "terms_url": "https://console.withcreai.app/terms",
+  "auth": "OAuth 2.0 with dynamic client registration; sign in when needed",
+  "url_pattern": "n/a",
+  "data_handling": "Own first-party API (console.withcreai.app). No personal health data. No sponsored content.",
+  "use_cases": [
+    "Turn a video on your own channel into interactive prompts",
+    "Review generated prompts and answer options before viewers see them",
+    "Publish a reviewed version and share the public watch link"
+  ],
+  "needs_before_connecting": "A Creai account and a YouTube channel you own, connected in the Creai console.",
+  "reads_writes": "both",
+  "reviewer_test_account_instructions": "Sam provides credentials in the portal; demo workspace only, no real creator data",
+  "icon_note": {
+    "source": "apps/site/src/favicon.svg",
+    "native_size_px": "32x32 (square vector, viewBox 0 0 32 32, rounded dark tile with green ring and play mark)",
+    "action": "Export to a square PNG (for example 512x512) for the portal upload; the repo holds no raster icon. The portal's icon size rules are not stated in the docs read, so check the upload field."
+  }
+}

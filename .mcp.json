@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "creai": {
+      "type": "http",
+      "url": "https://console.withcreai.app/mcp"
+    }
+  }
+}
